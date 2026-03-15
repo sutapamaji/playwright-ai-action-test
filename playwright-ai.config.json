@@ -20,6 +20,10 @@
     {
       "name": "Page is mobile responsive",
       "instruction": "Check that the page layout does not overflow horizontally at 375px viewport width."
+    },
+    {
+      "name": "Navigation to Github",
+      "instruction": "Check that the page has link or button to navigate to github.com."
     }
   ]
 }
