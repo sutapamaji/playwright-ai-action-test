@@ -16,6 +16,10 @@
       "name": "Form exists",
       "instruction": "Verify a form with an input field is present.",
       "selector": "form"
+    },
+    {
+      "name": "Page is mobile responsive",
+      "instruction": "Check that the page layout does not overflow horizontally at 375px viewport width."
     }
   ]
 }
