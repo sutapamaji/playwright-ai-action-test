@@ -14,4 +14,5 @@ jobs:
     with:
       start_command: "npx serve src -p 3000 -s"
       app_port: "3000"
-    secrets: inherit
+    secrets:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
