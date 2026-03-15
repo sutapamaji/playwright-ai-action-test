@@ -16,6 +16,10 @@
       "name": "Form exists",
       "instruction": "Verify a form with an input field is present.",
       "selector": "form"
+    },
+    {
+      "name": "link exists",
+      "instruction": "Verify a link to navigate to github is present.",
     }
   ]
 }
