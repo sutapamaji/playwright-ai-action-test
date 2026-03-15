@@ -1,21 +1,21 @@
 {
-    "llm": {
-        "provider": "groq",
-        "model": "llama3-70b-8192"
+  "llm": {
+    "provider": "groq",
+    "model": "llama3-8b-8192"
+  },
+  "tests": [
+    {
+      "name": "Homepage loads",
+      "instruction": "Verify the page has a visible heading and body content."
     },
-    "tests": [
-        {
-            "name": "Homepage loads",
-            "instruction": "Verify the page has a visible heading and body content."
-        },
-        {
-            "name": "Button is present",
-            "instruction": "Verify at least one button is visible on the page."
-        },
-        {
-            "name": "Form exists",
-            "instruction": "Verify a form with an input field is present.",
-            "selector": "form"
-        }
-    ]
+    {
+      "name": "Button is present",
+      "instruction": "Verify at least one button is visible on the page."
+    },
+    {
+      "name": "Form exists",
+      "instruction": "Verify a form with an input field is present.",
+      "selector": "form"
+    }
+  ]
 }
